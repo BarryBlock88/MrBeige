@@ -1,0 +1,84 @@
+body{
+    background-color: #f0e881;
+    color: beige;
+}
+
+.jumbotron{
+    background-color: transparent;
+
+}
+
+.header h1{
+    color: coral;
+    background-color: #f0e881;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 165px;
+    font-weight: bold;
+    text-align: center;
+}
+.header h2{
+    color: chocolate;
+    background-color: #f0e881;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* ---- NAV-BAR -----*/
+
+
+
+.col-3 nav{
+    margin: auto;
+}
+.nav-sticky{
+     position: relative;
+}
+
+ul{
+    padding: 0;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+ul a:link,
+a{
+    background-color: #c2b154;
+    color: chocolate;
+    font-weight: 700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.col{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+
+.nav-link{
+    display: unset;
+    padding: unset;
+    font-size: 70px;
+    color: #000000;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+.nav-link:hover{
+    color:#838051;
+}
+
+
+#active-nav, #active-nav-lg{
+    color: #a09c66;
+}
